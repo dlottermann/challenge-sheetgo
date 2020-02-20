@@ -1,0 +1,81 @@
+.formGroup {
+  color: palevioletred;
+  display: block;
+  width: 50%;
+  margin: 50px auto;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: rgb(24, 24, 24);
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+input,
+select {
+  padding: 0.75em;
+  color: rgba(110, 110, 110, 0.856);
+  background: #f0f5f5;
+  border: 1px #cccccc solid;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  padding: 0.75em;
+  color: rgba(110, 110, 110, 0.856);
+  background: #f0f5f5;
+  border: 1px #cccccc solid;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.message {
+  margin-bottom: 0.5em;
+  color: palevioletred;
+  display: block;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn:after {
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: palevioletred;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.btn:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+h3 {
+  color: green;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
