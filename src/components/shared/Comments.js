@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "../../assets/BookForm.css";
+import "../../assets/Comments.css";
 
 const edt = <FontAwesomeIcon icon={faPencilAlt} />;
 const trash = <FontAwesomeIcon icon={faTrashAlt} />;

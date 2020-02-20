@@ -1,0 +1,41 @@
+/*Comments*/
+
+.comments-body {
+  background-color: #fff;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px 0px 32px 10px;
+}
+
+.comments-body ul {
+  list-style: none;
+  width: 85%;
+}
+
+.comments-body ul li {
+  border: 1px solid #dcdcdc;
+  margin: 0 0 7px 0;
+  padding: 7px;
+}
+
+.comments-body .formGroup {
+  background: #f5f5f5;
+  padding: 45px;
+}
+
+.comments-body .formGroup input,
+textarea {
+  background-color: #fff;
+}
+
+.comment-title {
+  font-size: 13px;
+  color: #333;
+  padding: 5px;
+}
+
+.comment-body {
+  font-size: 12px;
+  color: #66ccff;
+  padding-left: 15px;
+}
