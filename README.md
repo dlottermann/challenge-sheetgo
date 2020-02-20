@@ -24,7 +24,7 @@ $ cd challenge-sheetgo
 -- Execute o comando  `yarn` ou `npm install` para instalar todas as dependências necessárias. <br />
 
 ```sh
-$ npm install
+$ yarn
 ```
 
 -- Depois de todas as dependencias instaladas, rode o comando `yarn start` para inicializar o projeto.
